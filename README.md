@@ -67,6 +67,10 @@ with smtplib.SMTP('smtp.gmail.com',587) as conexao:
 
     conexao.sendmail(msg['From'],msg['To'],msg.as_string().encode('utf-8'))
     print("Email enviado")
+    
+    
+
+
 
 
 
