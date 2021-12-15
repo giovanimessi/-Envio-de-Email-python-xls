@@ -54,7 +54,7 @@ msg['Subject'] = "Relatorio de vendas "
 
 msg ['From'] = 'pythomemail@gmail.com'
 msg['To'] = "pythomemail@gmail.com"
-password = "Magneto2020"
+password = "senha"
 msg.add_header('Content-type','text/html')
 msg.set_payload(body)
 
